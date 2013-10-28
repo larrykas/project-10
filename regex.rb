@@ -15,11 +15,12 @@
 # 4.
 ############################################################################################
 string = "<html>
-  <body>
-    Hello my name is Steve, my email address is steve@capshare.com I used to have an email address that was steve@hotmail.com but it was also taken. 
-    Sometime I try to fool people by typing it out like this: steve at gmail.com
+ <body>
+  Hello my name is Steve, my email address is steve@capshare.com 
+  I used to have an email address that was steve@hotmail.com but it was also taken. 
+  Sometime I try to fool people by typing it out like this: steve at gmail.com
   </body>
-</html>"
+ </html>"
 
 emailRegex = /([^\b\s\t\n]*\@[a-z0-9\-\_]*\.[a-z]{2,4})/i
 
