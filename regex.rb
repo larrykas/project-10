@@ -45,4 +45,6 @@ string = "<html>
 email_regx = /\w+@\w+.{4}|\w+\s+at\s+\w+.{4}/
 
 string.scan(email_regx)
+=> ["steve@capshare.com", "steve@hotmail.com", "steve at gmail.com"]
+
 ############################################################################################
